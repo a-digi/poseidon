@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+public/
+.vite/
+.vscode/
+package*.json
+*.md
+*.log
+scripts/
+frontend/
+!src/
+

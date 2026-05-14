@@ -1,0 +1,72 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# env file
+.env
+
+# Editor/IDE
+# .idea/
+# .vscode/
+
+# Wails build output
+frontend/node_modules/
+frontend/dist/
+wails.log
+
+# macOS system files
+.DS_Store
+
+# Wails Windows build artefacts (falls du auch für Windows baust)
+*.exe
+!app/*.exe
+*.dll
+*.ico
+*.manifest
+
+# Wails Linux build artefacts
+*.AppImage
+
+# Log- und temporäre Dateien
+*.log
+*.tmp
+
+# Wails frontend build cache
+frontend/.vite/
+
+# Editor/IDE spezifische Dateien (falls nicht schon enthalten)
+.idea/
+.vscode/
+
+node_modules/
+**/node_modules/
+
+plan/
+plugins/
+cache_*
+.claude/settings.*
+workspace/
+
+webview_cache.go

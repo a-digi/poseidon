@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-label="T-Digi Poseidon">
+  <title>T-Digi Poseidon</title>
+  <defs>
+    
+  </defs>
+
+  
+  <rect width="1400" height="900" fill="#ffffff"></rect>
+
+  
+  <g transform="translate(220,160)">
+    <rect x="0" y="0" width="960" height="580" fill="none" stroke="#0c1116" stroke-width="6"></rect>
+
+    
+    <text x="480" y="328" text-anchor="middle" font-family="&#39;Titan One&#39;, ui-sans-serif, system-ui, sans-serif" font-size="220" fill="#ffffff" stroke="#0c1116" stroke-width="9" paint-order="stroke fill" letter-spacing="-3">T-DIGI</text>
+
+    
+    <g transform="translate(480,460)">
+      <rect x="-200" y="-36" width="400" height="72" fill="#0c1116"></rect>
+      <text x="8" y="16" text-anchor="middle" font-family="&#39;Inter&#39;, ui-sans-serif, system-ui, sans-serif" font-weight="700" font-size="30" fill="#ffffff" letter-spacing="12">POSEIDON</text>
+    </g>
+  </g>
+</svg>

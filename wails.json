@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "t-digi-posseidon",
+  "outputfilename": "t-digi-posseidon",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dir": "frontend",
+  "frontend:build:dir": "frontend/dist",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "andet tafa",
+    "email": "andet.tafa@verso.de"
+  },
+  "info": {
+    "protocols": [
+      {
+        "scheme": "wails",
+        "role": "Editor"
+      }
+    ]
+  }
+}
